@@ -7,6 +7,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 
   allow do
+    # to be changed
     origins 'https://your-production-app-here.com'
     resource '*', headers: :any, methods: %i[get post put patch delete options head], credentials: true
   end
