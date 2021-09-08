@@ -1,0 +1,2 @@
+class Jacket < ApplicationRecord
+end
