@@ -1,10 +1,10 @@
 class WhishlistsController < ApplicationController
-    include CurrentUserConcern
-    
+  include CurrentUserConcern
+
   def show
     user = User.find_by(id: params[:id])
     if user
-    render json: user.jackets, status: :ok
+      render json: user.jackets, status: :ok
     else
       render json: { status: 401 }
     end
