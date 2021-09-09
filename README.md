@@ -86,7 +86,7 @@ Feel free to check the [issues page](https://github.com/omar-labana/fuyu-apu/iss
 
 Give a ⭐️ if you like this project!
 
-## :clap: Acknowledgements
+## Acknowledgements
 
 - Design by: [Alexey Savitskiy](https://www.behance.net/gallery/37706679/Circle-(Landing-page-Dashboard-Mobile-App))
 
