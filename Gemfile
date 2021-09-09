@@ -9,7 +9,7 @@ gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 
-gem 'pg'
+gem 'pg', '~> 1.2', '>= 1.2.3'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
