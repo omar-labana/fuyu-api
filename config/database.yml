@@ -1,5 +1,4 @@
-production: 
-  adapter: postgresql
-  encoding: unicode
-  url: <%= ENV['DATABASE_URI'] %>
-  pool: 25
+production:
+   <<: *default
+   adapter: postgresql
+   database: db/production.sqlite3
